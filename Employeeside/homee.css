@@ -110,19 +110,13 @@ body {
 }
 
 .image-gallery {
-  display:grid;
-  grid-template-columns: repeat(3, 2fr);
-  grid-gap: 11px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
 }
 
 .image-gallery img {
   width: 100%;
   height: auto;
   border-radius: 5px;
-}
- /* Responsive design */
- @media (max-width: 768px) {
-  form {
-    padding: 1rem;
-  }
 }

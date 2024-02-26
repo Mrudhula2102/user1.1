@@ -1,11 +1,11 @@
 import React from 'react';
 import './rules.css';
-import Topbare from '../Topbare';
 
-const Rulesr = (props) => {
+
+const Rulesr = () => {
   return (
     <div>
-      <Topbare xxx={props.checkLogout}/>
+     
     <div className='media'>
         <div className='body'>
     <header className='header'>
